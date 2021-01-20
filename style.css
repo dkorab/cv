@@ -50,7 +50,6 @@ ul {
 li {
     display: block;
     margin: 0.5rem 0;
-    text-align: justify;
 }
 
 li:first-child {
@@ -119,6 +118,10 @@ li i {
 
 .comment-text {
     color: var(--comment-color);
+}
+
+.justify-text {
+    text-align: justify;
 }
 
 .comment-text:before {
@@ -275,7 +278,7 @@ li i {
 
 .footer {
     grid-area: footer;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .footer__notes {
