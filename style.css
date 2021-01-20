@@ -35,7 +35,7 @@ html {
 }
 
 body {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-family: Verdana,Geneva,sans-serif;
 }
 
@@ -50,6 +50,7 @@ ul {
 li {
     display: block;
     margin: 0.5rem 0;
+    text-align: justify;
 }
 
 li:first-child {
@@ -200,7 +201,7 @@ li i {
 }
 
 .container__item {
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 @media only screen and (max-width: 900px) {
@@ -256,7 +257,7 @@ li i {
 }
 
 .main li li {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 /* Sidebar */
@@ -265,7 +266,6 @@ li i {
     background: var(--sidebar-color);
     grid-area: sidebar;
 }
-
 
 .sidebar .label-text {
     margin-right: 0.5rem;
@@ -283,7 +283,6 @@ li i {
 }
 
 .footer__notes > li {
-    text-align: justify;
     margin: 1rem 0;
 }
 
@@ -323,9 +322,5 @@ li i {
 
     .title > h1 {
         padding: 0;
-    }
-
-    .footer {
-        margin: 0;
     }
 }
